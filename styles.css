@@ -11,14 +11,19 @@
     height: 100vh;
     background-color: lightgray;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
+}
+.header{
+    position: absolute;
+    top: 20px;
 }
 .main{
     margin-top: 40px;
     width:50vw;
     height: auto;
-    background-color: rgb(14, 193, 40);
+    background-color: rgba(18, 186, 233, 0.619);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 h1
@@ -46,9 +51,10 @@ input[type=text]
 {
     padding: 5px;
     font-weight: bold;
-    background-color:blue;
+    background-color:black;
     outline: none;
     font-size: 20px;
+    color: white;
     
 
 }
@@ -69,19 +75,28 @@ input[type=text]
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .userprofile{
-    display: flex;
-    flex-direction: row;
     border: 1px solid black;
     width: 100px;
     height: 100px;
+    margin: 5px;
+    padding: 2px;
 }
 .userbio{
     border: 1px solid black;
-    width: 50vw;
+    padding: 2px;
+    margin: 5px;
 }
 .usercompany{
     border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
 }
 .userrepo{
     border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
+}
+.name{
+    padding: 2px;
+    margin: 5px;
 }
