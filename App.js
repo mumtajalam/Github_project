@@ -19,12 +19,12 @@ form.addEventListener('submit',(e)=>
 
             document.getElementById("result").innerHTML = `
             
-            <a href = "https://www.github.com/${searchOriginal}" class="">
+            <a href = "https://www.github.com/${searchOriginal}" class="anchor">
             <img src = "${data.avatar_url}"  class="userprofile"/>
             </a>
             <span class="userbio">${data.bio}</span> 
             <div color:"green" class="usercompany">Company : ${data.company}</div>
-            <div class="user-repo">Public Repo : ${data.public_repos}</div> 
+            <div class="userrepo">Public Repo : ${data.public_repos}</div> 
             `
         })
     }

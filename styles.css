@@ -32,7 +32,7 @@ h1
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 input[type=text]
 {
@@ -54,13 +54,34 @@ input[type=text]
 }
 #result
 {
-    margin-bottom: 20px;
-    margin-left: 20px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
     /* margin-right: 20px; */
     
 }
+.output{
+    margin-top: 40px;
+    width:50vw;
+    height: auto;
+    background-color: rgb(211, 211, 49);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 .userprofile{
+    display: flex;
+    flex-direction: row;
     border: 1px solid black;
     width: 100px;
     height: 100px;
+}
+.userbio{
+    border: 1px solid black;
+    width: 50vw;
+}
+.usercompany{
+    border: 1px solid black;
+}
+.userrepo{
+    border: 1px solid black;
 }
